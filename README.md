@@ -8,11 +8,17 @@ Instale as dependências / Install all the dependencies:
 npm install
 ```
 
+Instale o LiveServer / Install LiveServer
+
+```sh
+npm install -g live-server
+```
 Execute o projeto / Execute the project:
 
 ```sh
-npm run start
+live-server .
 ```
+
 
 ## Estrtura do Projeto / Project Structure
 
@@ -31,7 +37,7 @@ npm run start
 
 ## Contributing
 
-1. Fork it (URL do projeto)
+1. Fork it (`https://github.com/zwingad/Teste-Frontend-Dti`)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
