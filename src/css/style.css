@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', cursive;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #e73c7e, #c261aa, #f06fc5, #a46af5);
+  background-size: 400% 400%;
+  height: 100vh;
+}
+
+.wrapper-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  animation: fadeIn ease 5s;
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img.logo {
+  width: 120px;
+}
+
+.card > input {
+  width: 100%;
+  background: #44475a;
+  border: none;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  padding: 16px 10px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.card > input:focus,
+.card > input:active {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  outline: none;
+}
+
+.btn {
+  background: #f884db;
+  margin-top: 8px;
+  padding: 8px 16px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-logout {
+  background: #ee5252;
+  margin-top: 8px;
+  padding: 8px 16px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e73c7e;
+}
+.btn-logout:hover {
+  background: #631a1a;
+}
+.welcome-title {
+  text-align: center;
+}
+
+::placeholder {
+  color: #bd93f9;
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 100%;
+    margin: 0 20px;
+  }
+}
