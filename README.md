@@ -20,7 +20,7 @@ live-server .
 ```
 
 
-## Estrtura do Projeto / Project Structure
+## Estrutura do Projeto / Project Structure
 
 ```
 ├── assets // Arquivos estáticos (no caso desse projeto apenas a logo de 10 anos dti)
